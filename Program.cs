@@ -53,6 +53,11 @@ namespace guessNumber
                 Console.WriteLine("You've used all your guesses. Better luck next time!");
                 Console.WriteLine($"The correct number was: {rannum}");
             }
+            else{
+                 System.Console.WriteLine("------------------------------------");
+                 Console.WriteLine("Congratulations! You won the game.");
+                 System.Console.WriteLine("------------------------------------");
+            }
         }
     }
 }
